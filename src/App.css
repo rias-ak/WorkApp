@@ -1,0 +1,40 @@
+.App{
+  font-size: 20px;
+}
+
+.main-container {
+  width: 500px;
+  margin: auto;
+}
+
+.new-container {
+  width: 500px;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #262626;
+}
+
+.navContent {
+  float: right !important;
+	list-style-type: none !important;
+}
+
+.navBox {
+	display: inline-block !important;
+}
+
+.navLink {
+  text-decoration: none;
+	padding: 10px 30px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+  color: #fff;
+}
+
+.navLink:hover {
+	background-color: #fff;
+  cursor: pointer;
+  color: #000;
+}
